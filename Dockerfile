@@ -7,7 +7,8 @@ RUN apt-get update \
  && apt-get clean \
  && rm -r /var/lib/apt \
  && useradd -ms /bin/bash monero \
- && tar -C /usr/bin --strip-components 1 -xvf /tmp/$ARCHIVE
+ && tar -C /usr/bin --strip-components 1 -xvf /tmp/$ARCHIVE \
+ && rm -r /tmp/$ARCHIVE
 
 
 VOLUME /home/monero
