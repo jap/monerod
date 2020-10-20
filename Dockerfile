@@ -1,5 +1,5 @@
 FROM debian:buster
-ARG ARCHIVE=monero-linux-x64-v0.17.0.0.tar.bz2
+ARG ARCHIVE=monero-linux-x64-v0.17.1.1.tar.bz2
 
 COPY $ARCHIVE /tmp
 RUN apt-get update \
