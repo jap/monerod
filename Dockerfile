@@ -1,5 +1,5 @@
 FROM debian:bullseye
-ARG ARCHIVE=monero-linux-x64-v0.18.0.0.tar.bz2
+ARG ARCHIVE=monero-linux-x64-v0.18.1.0.tar.bz2
 
 COPY $ARCHIVE /tmp
 RUN apt-get update \
