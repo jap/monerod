@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:trixie
 ARG ARCHIVE=monero-linux-x64-v0.18.1.0.tar.bz2
 
 COPY $ARCHIVE /tmp
